@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Document</title>
+</head>
+
+
+
+<body>
+    <h1 id="myTitle" class="">
+        Hello World (pour changer...)
+    </h1>
+        
+        <a class="container mt-5" href=""><button class="btn btn-primary" id="deleteButton" onclick="warning()">
+            (╯°□°)╯︵ ┻━┻
+        </button></a>
+
+        <div class="modal fade" id="confirmModal" tabindex="-1" aria-labelledby="confirmModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="confirmModalLabel">Confirmation</h5>
+                    </div>
+                    <div class="modal-body">
+                        Attention cette action est irrémédiable. Voulez-vous continuer ?
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Annuler</button>
+                        <button type="button" class="btn btn-primary" id="confirmButton">Confirmer</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div>
+                <button id="flip" class="">Flip</button>
+                <button id="unflip" hidden>Unflip</button>
+            </div>
+            <div class="text-center">
+                <h2 id="table"></h2>
+            </div>
+        </div>
+
+        <form id="myForm">
+            <label for="name">name:</label><br>
+            <input type="text" id="name" name="name"><br>
+
+            <label for="email">email:</label><br>
+            <input type="text" id="email" name="email">
+
+            <input type="submit" value="Submit">
+
+        </form>
+
+        <form id="numGuess">
+            <label for="myNum">Number:</label><br>
+            <input type="number" id="myNum" name="myNum"><br>
+
+            <input type="submit" value="Submit">
+
+        </form>
+
+        <div class="row">
+            <div>
+                <button id="showButton">Show Message</button>
+            </div>
+            <div class="text-center">
+                <h2 id="msg"></h2>
+            </div>
+        </div>
+
+
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+</body>
+
+</html>

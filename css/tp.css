@@ -1,0 +1,23 @@
+#map {
+    height: 360px;
+    width: 50%;
+}
+
+.column {
+    max-width: 50%;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+.destinationButton {
+    background-color: lightcoral;
+
+    /* nested css: permet de n'atteindre que les enfants de l'element en cours */
+ & > *{
+     display: block;
+     background-color: antiquewhite;
+ }
+}

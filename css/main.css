@@ -1,0 +1,14 @@
+h1{
+    font-weight: bold;
+    color: red;
+    text-align: center;
+}
+
+.white{
+    color: white;
+}
+
+.red {
+    background-color: red;
+    color:white
+}
